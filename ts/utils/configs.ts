@@ -14,5 +14,5 @@ export const configs = {
     // WARNING: ZRX & WETH MUST always be default trackedTokens
     defaultTrackedTokenSymbols: ['WETH', 'ZRX'],
     lastLocalStorageFillClearanceDate: '2017-09-09',
-    isMainnetEnabled: true,
+    isMainnetEnabled: false,
 };

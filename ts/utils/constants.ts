@@ -10,7 +10,7 @@ import {
 } from 'ts/types';
 import * as BigNumber from 'bignumber.js';
 
-const INFURA_API_KEY = 'T5WSC8cautR4KXyYgsRs';
+const INFURA_API_KEY = 'RDvZW735WfdpWDzKPL9b';
 
 export const constants = {
     ANGELLIST_URL: 'https://angel.co/0xproject/jobs',
