@@ -16,7 +16,7 @@ export const constants = {
     ANGELLIST_URL: 'https://angel.co/0xproject/jobs',
     STAGING_DOMAIN: 'staging-0xproject.s3-website-us-east-1.amazonaws.com',
     PRODUCTION_DOMAIN: '0xproject.com',
-    DEVELOPMENT_DOMAIN: '0xproject.dev:3572',
+    DEVELOPMENT_DOMAIN: '18.194.13.39:3572',
     BIGNUMBERJS_GITHUB_URL: 'http://mikemcl.github.io/bignumber.js',
     BITLY_ACCESS_TOKEN: 'ffc4c1a31e5143848fb7c523b39f91b9b213d208',
     BITLY_ENDPOINT: 'https://api-ssl.bitly.com',
