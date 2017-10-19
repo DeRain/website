@@ -69,11 +69,11 @@ export class EthWethConversionDialog extends
                     <RadioButton
                         className="pb1"
                         value={Side.deposit}
-                        label="Ether -> Ether Tokens"
+                        name="Ether -> Ether Tokens"
                     />
                     <RadioButton
                         value={Side.receive}
-                        label="Ether Tokens -> Ether"
+                        name="Ether Tokens -> Ether"
                     />
                 </RadioButtonGroup>
                 {this.state.direction === Side.receive ?
