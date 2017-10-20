@@ -4,7 +4,7 @@
   "description": "Website and 0x portal dapp",
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "dev": "webpack-dev-server --content-base public",
+    "dev": "webpack-dev-server --content-base public --host 0.0.0.0 --port 3572",
     "update_contracts": "for i in ${npm_package_config_artifacts}; do copyfiles -u 4 ../contracts/build/contracts/$i.json ../website/contracts; done;",
     "deploy_staging": "npm run build; aws s3 sync ./public/. s3://staging-0xproject --profile 0xproject --region us-east-1 --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers",
     "deploy_crowdsale": "npm run build; aws s3 sync ./public/. s3://c0139f56b662428187e64ffc035b2f1f300dbebf289f8cb33.0xproject.com --profile 0xproject --region us-east-1 --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers",

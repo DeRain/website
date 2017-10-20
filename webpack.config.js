@@ -52,6 +52,7 @@ module.exports = {
         ],
     },
     devServer: {
+        host: "0.0.0.0",
         port: 3572,
         historyApiFallback: {
             // Fixes issue where having dots in URL path that aren't part of fileNames causes webpack-dev-server
